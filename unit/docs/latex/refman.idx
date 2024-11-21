@@ -1,0 +1,12 @@
+\indexentry{MyTestReporter@{MyTestReporter}|hyperpage}{7}
+\indexentry{MyTestReporter@{MyTestReporter}!ReportFailure@{ReportFailure}|hyperpage}{8}
+\indexentry{ReportFailure@{ReportFailure}!MyTestReporter@{MyTestReporter}|hyperpage}{8}
+\indexentry{MyTestReporter@{MyTestReporter}!ReportSummary@{ReportSummary}|hyperpage}{8}
+\indexentry{ReportSummary@{ReportSummary}!MyTestReporter@{MyTestReporter}|hyperpage}{8}
+\indexentry{MyTestReporter@{MyTestReporter}!ReportTestFinish@{ReportTestFinish}|hyperpage}{9}
+\indexentry{ReportTestFinish@{ReportTestFinish}!MyTestReporter@{MyTestReporter}|hyperpage}{9}
+\indexentry{MyTestReporter@{MyTestReporter}!ReportTestStart@{ReportTestStart}|hyperpage}{9}
+\indexentry{ReportTestStart@{ReportTestStart}!MyTestReporter@{MyTestReporter}|hyperpage}{9}
+\indexentry{main.cpp@{main.cpp}|hyperpage}{11}
+\indexentry{main.cpp@{main.cpp}!main@{main}|hyperpage}{12}
+\indexentry{main@{main}!main.cpp@{main.cpp}|hyperpage}{12}

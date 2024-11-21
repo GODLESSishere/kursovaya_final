@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Unittests: Класс MyTestReporter</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Unittests<span id="projectnumber">&#160;1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.4 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="classMyTestReporter-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle"><div class="title">Класс MyTestReporter</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Класс логгера для вывода детализированной информации о тестах.  
+ <a href="classMyTestReporter.html#details">Подробнее...</a></p>
+<div class="dynheader">
+Граф наследования:MyTestReporter:</div>
+<div class="dyncontent">
+<div class="center"><img src="classMyTestReporter__inherit__graph.png" border="0" usemap="#aMyTestReporter_inherit__map" alt="Inheritance graph"/></div>
+<map name="aMyTestReporter_inherit__map" id="aMyTestReporter_inherit__map">
+<area shape="rect" title="Класс логгера для вывода детализированной информации о тестах." alt="" coords="26,80,150,107"/>
+<area shape="rect" title=" " alt="" coords="5,5,171,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">см. легенду</a>]</span></center></div>
+<div class="dynheader">
+Граф связей класса MyTestReporter:</div>
+<div class="dyncontent">
+<div class="center"><img src="classMyTestReporter__coll__graph.png" border="0" usemap="#aMyTestReporter_coll__map" alt="Collaboration graph"/></div>
+<map name="aMyTestReporter_coll__map" id="aMyTestReporter_coll__map">
+<area shape="rect" title="Класс логгера для вывода детализированной информации о тестах." alt="" coords="26,80,150,107"/>
+<area shape="rect" title=" " alt="" coords="5,5,171,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">см. легенду</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:ae39f71f494012705153f78315b3573fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMyTestReporter.html#ae39f71f494012705153f78315b3573fe">ReportTestStart</a> (UnitTest::TestDetails const &amp;test) override</td></tr>
+<tr class="memdesc:ae39f71f494012705153f78315b3573fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сообщает о начале выполнения теста.  <a href="classMyTestReporter.html#ae39f71f494012705153f78315b3573fe">Подробнее...</a><br /></td></tr>
+<tr class="separator:ae39f71f494012705153f78315b3573fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2dcbfb68390fc2e8889dafdc4ff2a1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMyTestReporter.html#af2dcbfb68390fc2e8889dafdc4ff2a1a">ReportTestFinish</a> (UnitTest::TestDetails const &amp;test, float secondsElapsed) override</td></tr>
+<tr class="memdesc:af2dcbfb68390fc2e8889dafdc4ff2a1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сообщает об окончании выполнения теста.  <a href="classMyTestReporter.html#af2dcbfb68390fc2e8889dafdc4ff2a1a">Подробнее...</a><br /></td></tr>
+<tr class="separator:af2dcbfb68390fc2e8889dafdc4ff2a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f085d22a9f8709a2f44df9a66447eae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMyTestReporter.html#a8f085d22a9f8709a2f44df9a66447eae">ReportFailure</a> (UnitTest::TestDetails const &amp;test, char const *failure) override</td></tr>
+<tr class="memdesc:a8f085d22a9f8709a2f44df9a66447eae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сообщает о сбое теста.  <a href="classMyTestReporter.html#a8f085d22a9f8709a2f44df9a66447eae">Подробнее...</a><br /></td></tr>
+<tr class="separator:a8f085d22a9f8709a2f44df9a66447eae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01c34b19509cbb7b384fdda86718fc30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMyTestReporter.html#a01c34b19509cbb7b384fdda86718fc30">ReportSummary</a> (int totalTestCount, int failedTestCount, int failureCount, float secondsElapsed) override</td></tr>
+<tr class="memdesc:a01c34b19509cbb7b384fdda86718fc30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сообщает об общей сводке выполнения тестов.  <a href="classMyTestReporter.html#a01c34b19509cbb7b384fdda86718fc30">Подробнее...</a><br /></td></tr>
+<tr class="separator:a01c34b19509cbb7b384fdda86718fc30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p >Класс логгера для вывода детализированной информации о тестах. </p>
+</div><h2 class="groupheader">Методы</h2>
+<a id="a8f085d22a9f8709a2f44df9a66447eae" name="a8f085d22a9f8709a2f44df9a66447eae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f085d22a9f8709a2f44df9a66447eae">&#9670;&nbsp;</a></span>ReportFailure()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MyTestReporter::ReportFailure </td>
+          <td>(</td>
+          <td class="paramtype">UnitTest::TestDetails const &amp;&#160;</td>
+          <td class="paramname"><em>test</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char const *&#160;</td>
+          <td class="paramname"><em>failure</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Сообщает о сбое теста. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">test</td><td>Детали теста. </td></tr>
+    <tr><td class="paramname">failure</td><td>Описание сбоя. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a01c34b19509cbb7b384fdda86718fc30" name="a01c34b19509cbb7b384fdda86718fc30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01c34b19509cbb7b384fdda86718fc30">&#9670;&nbsp;</a></span>ReportSummary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MyTestReporter::ReportSummary </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>totalTestCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>failedTestCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>failureCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>secondsElapsed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Сообщает об общей сводке выполнения тестов. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">totalTestCount</td><td>Общее количество тестов. </td></tr>
+    <tr><td class="paramname">failedTestCount</td><td>Количество неудачных тестов. </td></tr>
+    <tr><td class="paramname">failureCount</td><td>Общее количество сбоев. </td></tr>
+    <tr><td class="paramname">secondsElapsed</td><td>Общее время выполнения тестов в секундах. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af2dcbfb68390fc2e8889dafdc4ff2a1a" name="af2dcbfb68390fc2e8889dafdc4ff2a1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2dcbfb68390fc2e8889dafdc4ff2a1a">&#9670;&nbsp;</a></span>ReportTestFinish()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MyTestReporter::ReportTestFinish </td>
+          <td>(</td>
+          <td class="paramtype">UnitTest::TestDetails const &amp;&#160;</td>
+          <td class="paramname"><em>test</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>secondsElapsed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Сообщает об окончании выполнения теста. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">test</td><td>Детали теста. </td></tr>
+    <tr><td class="paramname">secondsElapsed</td><td>Время выполнения теста в секундах. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae39f71f494012705153f78315b3573fe" name="ae39f71f494012705153f78315b3573fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae39f71f494012705153f78315b3573fe">&#9670;&nbsp;</a></span>ReportTestStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MyTestReporter::ReportTestStart </td>
+          <td>(</td>
+          <td class="paramtype">UnitTest::TestDetails const &amp;&#160;</td>
+          <td class="paramname"><em>test</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Сообщает о начале выполнения теста. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">test</td><td>Детали теста. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li><a class="el" href="main_8cpp.html">main.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+</small></address>
+</body>
+</html>
