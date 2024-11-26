@@ -1,0 +1,24 @@
+\begin{theindex}
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{12}
+  \item {main.cpp}, \hyperpage{11}
+    \subitem {main}, \hyperpage{12}
+  \item {MyTestReporter}, \hyperpage{7}
+    \subitem {ReportFailure}, \hyperpage{8}
+    \subitem {ReportSummary}, \hyperpage{8}
+    \subitem {ReportTestFinish}, \hyperpage{9}
+    \subitem {ReportTestStart}, \hyperpage{9}
+
+  \indexspace
+
+  \item {ReportFailure}
+    \subitem {MyTestReporter}, \hyperpage{8}
+  \item {ReportSummary}
+    \subitem {MyTestReporter}, \hyperpage{8}
+  \item {ReportTestFinish}
+    \subitem {MyTestReporter}, \hyperpage{9}
+  \item {ReportTestStart}
+    \subitem {MyTestReporter}, \hyperpage{9}
+
+\end{theindex}

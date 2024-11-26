@@ -1,0 +1,22 @@
+[Critical]	[2024-11-21 20:09:29]	IOException in Interface::readDB: Failed to open database file for reading.
+[Critical]	[2024-11-21 20:09:29]	ArgsDecodeException in Interface::parseArgs: Invalid argument.
+[Critical]	[2024-11-21 20:15:05]	IOException in Interface::readDB: Failed to open database file for reading.
+[Critical]	[2024-11-21 20:15:05]	ArgsDecodeException in Interface::parseArgs: Invalid argument.
+[Critical]	[2024-11-21 20:31:26]	IOException in Interface::readDB: Failed to open database file for reading.
+[Critical]	[2024-11-21 20:31:26]	ArgsDecodeException in Interface::parseArgs: Invalid argument.
+[Critical]	[2024-11-21 20:32:33]	IOException in Interface::readDB: Failed to open database file for reading.
+[Critical]	[2024-11-21 20:32:33]	ArgsDecodeException in Interface::parseArgs: Invalid argument.
+[Critical]	[2024-11-21 20:33:43]	IOException in Interface::readDB: Failed to open database file for reading.
+[Critical]	[2024-11-21 20:33:43]	ArgsDecodeException in Interface::parseArgs: Invalid argument.
+[Critical]	[2024-11-21 21:06:40]	IOException in Interface::readDB: Failed to open database file for reading.
+[Critical]	[2024-11-21 21:06:40]	ArgsDecodeException in Interface::parseArgs: Invalid argument.
+[NoCritical]	[2024-11-21 21:06:40]	NetworkException in Network::Network: Failed to bind socket.
+[Critical]	[2024-11-21 21:07:07]	IOException in Interface::readDB: Failed to open database file for reading.
+[Critical]	[2024-11-21 21:07:07]	ArgsDecodeException in Interface::parseArgs: Invalid argument.
+[NoCritical]	[2024-11-21 21:07:30]	NetworkException in Network::calc: Failed to read vector value from client.
+[Critical]	[2024-11-21 21:07:52]	IOException in Interface::readDB: Failed to open database file for reading.
+[Critical]	[2024-11-21 21:07:52]	ArgsDecodeException in Interface::parseArgs: Invalid argument.
+[Critical]	[2024-11-21 21:10:36]	IOException in Interface::readDB: Failed to open database file for reading.
+[Critical]	[2024-11-21 21:10:36]	ArgsDecodeException in Interface::parseArgs: Invalid argument.
+[Critical]	[2024-11-21 22:11:08]	IOException in Interface::readDB: Failed to open database file for reading.
+[Critical]	[2024-11-21 22:11:08]	ArgsDecodeException in Interface::parseArgs: Invalid argument.

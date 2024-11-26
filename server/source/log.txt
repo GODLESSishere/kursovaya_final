@@ -1,0 +1,7 @@
+[Critical]	[2024-11-20 20:18:48]	ArgsDecodeException in Interface::parseArgs: Invalid port number.
+[Critical]	[2024-11-20 20:20:37]	DataDecodeException in Interface::readDB: Invalid line format in database file.
+[NoCritical]	[2024-11-21 18:27:38]	NetworkException in Network::Network: Failed to bind socket.
+[NoCritical]	[2024-11-21 19:42:27]	NetworkException in Network::Network: Failed to bind socket.
+[NoCritical]	[2024-11-21 21:24:21]	NetworkException in Network::calc: Failed to read vector value from client.
+[Critical]	[2024-11-22 00:41:57]	ArgsDecodeException in Interface::parseArgs: Invalid port number.
+[Critical]	[2024-11-22 00:46:03]	DataDecodeException in Interface::readDB: Invalid line format in database file.
