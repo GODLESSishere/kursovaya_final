@@ -1,9 +1,0 @@
-<map id="interface.h" name="interface.h">
-<area shape="rect" id="node1" title="Определение класса интерфейса." alt="" coords="136,5,228,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="135,155,186,181"/>
-<area shape="rect" id="node3" title=" " alt="" coords="231,229,290,256"/>
-<area shape="rect" id="node4" href="$exceptions_8h.html" title="Определение классов исключений." alt="" coords="5,155,111,181"/>
-<area shape="rect" id="node6" href="$network_8h.html" title="Определения классов для управления сетевым взаимодействием." alt="" coords="180,80,267,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="15,229,101,256"/>
-<area shape="rect" id="node7" href="$crutils_8h.html" title="Определения вспомогательных функций для криптографических операций." alt="" coords="261,155,335,181"/>
-</map>
