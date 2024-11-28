@@ -1,0 +1,7 @@
+[Critical]	[2024-11-28 17:23:50]	IOException in Interface::readDB: Failed to open database file for reading.
+[NoCritical]	[2024-11-28 17:36:13]	NetworkException in Network::auth: Hash mismatch.
+[NoCritical]	[2024-11-28 17:36:17]	NetworkException in Network::auth: Hash mismatch.
+[NoCritical]	[2024-11-28 19:55:19]	NetworkException in Network::calc: Failed to read vector value from client.
+[NoCritical]	[2024-11-28 19:55:46]	NetworkException in Network::auth: Hash mismatch.
+[NoCritical]	[2024-11-28 19:56:03]	NetworkException in Network::auth: Login not found in database: userAE269A4B9E656177A85BD6EF1C6C64472BF91BF1493E5115C1385986.
+[NoCritical]	[2024-11-28 19:56:40]	NetworkException in Network::calc: Failed to read vector value from client.
