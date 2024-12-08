@@ -9,8 +9,8 @@ Decoder::Decoder()
 {
     this->address = "127.0.0.1";
     this->port = 33333;
-    this->db_path = "./db.txt";
-    this->log_path = "./log.txt";
+    this->db_path = "/etc/vcalc.conf";
+    this->log_path = "/var/log/vcalc.log";
 }
 
 string &Decoder::getDataBasePath()
