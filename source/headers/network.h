@@ -34,3 +34,4 @@ private:
     string log_path;              ///< Путь к файлу логов.
 };
 
+

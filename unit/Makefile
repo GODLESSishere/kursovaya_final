@@ -1,26 +1,42 @@
-# Компилятор и флаги
-CXX = g++
-CXXFLAGS = -std=c++11 -Wall -I/usr/include/UnitTest++
-
-# Каталоги и файлы
-SRCDIR = .
-SRC = $(wildcard $(SRCDIR)/*.cpp)
-OBJ = $(SRC:.cpp=.o)
+# Определяем переменные для путей
+SRC_DIR = .
+MODULES_DIR = ../../kursovaya_final/source/headers
+BUILD_DIR = .
 TARGET = unit
 
-# Флаги и библиотеки
+# Определяем компилятор и флаги компиляции
+CXX = g++
+CXXFLAGS = -std=c++11 -I/usr/include/UnitTest++
 LDFLAGS = -L/usr/lib -lUnitTest++ -lcryptopp
 
-# Правила
-all: $(TARGET) clean
+# Получаем список всех файлов .cpp в директории modules и файл main.cpp
+MODULES = $(wildcard $(MODULES_DIR)/*.cpp)
+MAIN = $(SRC_DIR)/main.cpp
 
-$(TARGET): $(OBJ)
-	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
+# Определяем все объектные файлы
+OBJS = $(patsubst %.cpp, $(BUILD_DIR)/%.o, $(notdir $(MODULES) $(MAIN)))
 
-%.o: %.cpp
-	$(CXX) $(CXXFLAGS) -c $< -o $@
+# Цель по умолчанию
+all: mkdir $(BUILD_DIR)/$(TARGET) clean
 
+# Создание папки для объектных файлов и исполняемого файла
+mkdir:
+	mkdir -p $(BUILD_DIR)
+
+# Сборка проекта
+$(BUILD_DIR)/$(TARGET): $(OBJS)
+	@$(CXX) -o $@ $^ $(LDFLAGS)
+	
+# Правило для компиляции объектного файла для main.cpp
+$(BUILD_DIR)/main.o: $(SRC_DIR)/main.cpp
+	@$(CXX) -c $< -o $@ $(CXXFLAGS)
+
+# Правило для компиляции объектных файлов из modules
+$(BUILD_DIR)/%.o: $(MODULES_DIR)/%.cpp
+	$(CXX) -c $< -o $@ $(CXXFLAGS)
+
+# Очистка сборки
 clean:
-	rm -f $(OBJ)
-
-.PHONY: all clean
+	@rm -rf $(BUILD_DIR)/*.o
+	
+.PHONY: all clean 

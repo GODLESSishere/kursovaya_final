@@ -1,7 +1,7 @@
-#include "decoder.h"
-#include "network.h"
-#include "exceptions.h"
-#include "hash.h"
+#include "../../kursovaya_final/source/headers/decoder.h"
+#include "../../kursovaya_final/source/headers/network.h"
+#include "../../kursovaya_final/source/headers/exceptions.h"
+#include "../../kursovaya_final/source/headers/hash.h"
 #include <UnitTest++/UnitTest++.h>
 #include <iostream>
 #include <map>
@@ -25,8 +25,8 @@ TEST(DecoderConstructorAndGetters) {
 
     CHECK_EQUAL("127.0.0.1", decoder.getAddres());
     CHECK_EQUAL(33333, decoder.getPort());
-    CHECK_EQUAL("./db.txt", decoder.getDataBasePath());
-    CHECK_EQUAL("./log.txt", decoder.getLogPath());
+    CHECK_EQUAL("/etc/vcalc.conf", decoder.getDataBasePath());
+    CHECK_EQUAL("/var/log/vcalc.log", decoder.getLogPath());
 }
 
 // Тестирование парсинга аргументов командной строки

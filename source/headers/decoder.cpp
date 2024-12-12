@@ -9,8 +9,8 @@ Decoder::Decoder()
 {
     this->address = "127.0.0.1";
     this->port = 33333;
-    this->db_path = "./db.txt";
-    this->log_path = "./log.txt";
+    this->db_path = "/etc/vcalc.conf";
+    this->log_path = "/var/log/vcalc.log";
 }
 
 string &Decoder::getDataBasePath()
@@ -83,8 +83,8 @@ void Decoder::showHelp() const
 {
     std::cout << "Usage: program [options]\nOptions:\n"
               << "  -h, --help                 Show this help message and exit\n"
-              << "  -d, --path_to_database     Path to the database file (default ./db.txt)\n"
-              << "  -l, --path_to_log          Path to the log file (default ./log.txt)\n"
+              << "  -d, --path_to_database     Path to the database file (default /etc/vcalc.conf)\n"
+              << "  -l, --path_to_log          Path to the log file (default /var/log/vcalc.log)\n"
               << "  -p, --port                 Port number (default: 33333)\n"
               << "  -a, --address              Address (default: 127.0.0.1)\n";
 }

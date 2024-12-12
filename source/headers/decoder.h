@@ -1,4 +1,5 @@
 #pragma once
+
 #include <map>
 #include <string>
 #include "exceptions.h"
@@ -26,4 +27,5 @@ private:
     int port;        ///< Порт.
     string address;  ///< Адрес.
 };
+
 
