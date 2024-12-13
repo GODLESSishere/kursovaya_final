@@ -1,0 +1,111 @@
+\begin{theindex}
+
+  \item {ArgsDecodeException}, \hyperpage{7}
+    \subitem {ArgsDecodeException}, \hyperpage{8}
+  \item {auth}
+    \subitem {Network}, \hyperpage{20}
+  \item {AuthException}, \hyperpage{9}
+    \subitem {AuthException}, \hyperpage{10}
+
+  \indexspace
+
+  \item {DataDecodeException}, \hyperpage{10}
+    \subitem {DataDecodeException}, \hyperpage{12}
+  \item {Decoder}, \hyperpage{12}
+    \subitem {Decoder}, \hyperpage{13}
+    \subitem {getAddres}, \hyperpage{13}
+    \subitem {getDataBasePath}, \hyperpage{13}
+    \subitem {getLogPath}, \hyperpage{14}
+    \subitem {getPort}, \hyperpage{14}
+    \subitem {parse}, \hyperpage{14}
+    \subitem {showHelp}, \hyperpage{15}
+  \item {decoder.h}, \hyperpage{25}
+
+  \indexspace
+
+  \item {Exception}, \hyperpage{15}
+    \subitem {Exception}, \hyperpage{16}
+    \subitem {what}, \hyperpage{17}
+  \item {exceptions.h}, \hyperpage{26}
+
+  \indexspace
+
+  \item {getAddres}
+    \subitem {Decoder}, \hyperpage{13}
+  \item {getAddress}
+    \subitem {Network}, \hyperpage{20}
+  \item {getDataBase}
+    \subitem {main.cpp}, \hyperpage{32}
+  \item {getDatabase}
+    \subitem {Network}, \hyperpage{21}
+  \item {getDataBasePath}
+    \subitem {Decoder}, \hyperpage{13}
+  \item {getHash}
+    \subitem {hash.h}, \hyperpage{30}
+  \item {getLogPath}
+    \subitem {Decoder}, \hyperpage{14}
+  \item {getPort}
+    \subitem {Decoder}, \hyperpage{14}
+    \subitem {Network}, \hyperpage{21}
+  \item {getSalt}
+    \subitem {hash.h}, \hyperpage{30}
+
+  \indexspace
+
+  \item {hash.h}, \hyperpage{29}
+    \subitem {getHash}, \hyperpage{30}
+    \subitem {getSalt}, \hyperpage{30}
+
+  \indexspace
+
+  \item {IOException}, \hyperpage{17}
+    \subitem {IOException}, \hyperpage{18}
+
+  \indexspace
+
+  \item {loop}
+    \subitem {main.cpp}, \hyperpage{32}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{33}
+  \item {main.cpp}, \hyperpage{31}
+    \subitem {getDataBase}, \hyperpage{32}
+    \subitem {loop}, \hyperpage{32}
+    \subitem {main}, \hyperpage{33}
+
+  \indexspace
+
+  \item {Network}, \hyperpage{19}
+    \subitem {auth}, \hyperpage{20}
+    \subitem {getAddress}, \hyperpage{20}
+    \subitem {getDatabase}, \hyperpage{21}
+    \subitem {getPort}, \hyperpage{21}
+    \subitem {Network}, \hyperpage{20}
+    \subitem {sum}, \hyperpage{21}
+    \subitem {wait}, \hyperpage{21}
+  \item {network.h}, \hyperpage{33}
+  \item {NetworkException}, \hyperpage{22}
+    \subitem {NetworkException}, \hyperpage{23}
+
+  \indexspace
+
+  \item {parse}
+    \subitem {Decoder}, \hyperpage{14}
+
+  \indexspace
+
+  \item {showHelp}
+    \subitem {Decoder}, \hyperpage{15}
+  \item {sum}
+    \subitem {Network}, \hyperpage{21}
+
+  \indexspace
+
+  \item {wait}
+    \subitem {Network}, \hyperpage{21}
+  \item {what}
+    \subitem {Exception}, \hyperpage{17}
+
+\end{theindex}

@@ -1,0 +1,50 @@
+\hypertarget{network_8h_source}{}\doxysection{network.\+h}
+\mbox{\hyperlink{network_8h}{См. документацию.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{hash_8h}{hash.h}}"{}}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{exceptions_8h}{exceptions.h}}"{}}}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{23 \textcolor{keyword}{class }\mbox{\hyperlink{classNetwork}{Network}}}
+\DoxyCodeLine{24 \{}
+\DoxyCodeLine{25 \textcolor{keyword}{public}:}
+\DoxyCodeLine{33     \mbox{\hyperlink{classNetwork_a05e331c2922c2482ce829b80e7509621}{Network}}(}
+\DoxyCodeLine{34         \textcolor{keyword}{const} \textcolor{keywordtype}{string} \&\mbox{\hyperlink{classNetwork_a2d0f221eb0bea88d8079a824cd16beac}{address}},}
+\DoxyCodeLine{35         uint16\_t \mbox{\hyperlink{classNetwork_adbb3614233301dcc94a87c09ce6a3351}{port}},}
+\DoxyCodeLine{36         \textcolor{keyword}{const} map<string, string> \&\mbox{\hyperlink{classNetwork_ae94ddec107edd68daba2badab1cbb7ab}{database}},}
+\DoxyCodeLine{37         \textcolor{keyword}{const} \textcolor{keywordtype}{string} \&\mbox{\hyperlink{classNetwork_aaf718cbdd3607ede967c2d4a1deefd85}{log\_path}});}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{43     \textcolor{keywordtype}{string} \&\mbox{\hyperlink{classNetwork_abb59094635ab5c94b01a46df4390fc49}{getAddress}}();}
+\DoxyCodeLine{44     }
+\DoxyCodeLine{49     uint16\_t \&\mbox{\hyperlink{classNetwork_a666b76f78e54de6f08fb968275ccac4e}{getPort}}();}
+\DoxyCodeLine{50     }
+\DoxyCodeLine{55     map<string, string> \&\mbox{\hyperlink{classNetwork_a68d0e131027a6c08807a89e23d0cd77b}{getDatabase}}();}
+\DoxyCodeLine{56     }
+\DoxyCodeLine{60     \textcolor{keywordtype}{void} \mbox{\hyperlink{classNetwork_aa512c1abc3918e9e419d0430d5a9850c}{start}}();}
+\DoxyCodeLine{61     }
+\DoxyCodeLine{65     \textcolor{keywordtype}{void} \mbox{\hyperlink{classNetwork_a223d8aca05065fb5a5c80b119c077831}{stop}}();}
+\DoxyCodeLine{66     }
+\DoxyCodeLine{71     \textcolor{keywordtype}{void} \mbox{\hyperlink{classNetwork_a0671b3a74b520585e591f2d577dfaad3}{wait}}();}
+\DoxyCodeLine{72     }
+\DoxyCodeLine{77     \textcolor{keywordtype}{void} \mbox{\hyperlink{classNetwork_a0113e8cf367e5150bf364874ae517b32}{auth}}();}
+\DoxyCodeLine{78     }
+\DoxyCodeLine{83     \textcolor{keywordtype}{void} \mbox{\hyperlink{classNetwork_ae3348b8c0ed6cd38acb7810d61f2730c}{sum}}();}
+\DoxyCodeLine{84 }
+\DoxyCodeLine{85 \textcolor{keyword}{private}:}
+\DoxyCodeLine{86     \textcolor{keywordtype}{string} \mbox{\hyperlink{classNetwork_a2d0f221eb0bea88d8079a824cd16beac}{address}};               }
+\DoxyCodeLine{87     uint16\_t \mbox{\hyperlink{classNetwork_adbb3614233301dcc94a87c09ce6a3351}{port}};                }
+\DoxyCodeLine{88     map<string, string> \mbox{\hyperlink{classNetwork_ae94ddec107edd68daba2badab1cbb7ab}{database}}; }
+\DoxyCodeLine{89     \textcolor{keywordtype}{int} \mbox{\hyperlink{classNetwork_a581d7031a09e7bf6715b6ee010546e74}{socket}};                   }
+\DoxyCodeLine{90     \textcolor{keywordtype}{int} \mbox{\hyperlink{classNetwork_ad3eddd3846357eca6e970c4c7655bcef}{client}};                   }
+\DoxyCodeLine{91     \textcolor{keywordtype}{string} \mbox{\hyperlink{classNetwork_aaf718cbdd3607ede967c2d4a1deefd85}{log\_path}};              }
+\DoxyCodeLine{92 \};}
+\DoxyCodeLine{93 }
+\DoxyCodeLine{94 }
+
+\end{DoxyCode}

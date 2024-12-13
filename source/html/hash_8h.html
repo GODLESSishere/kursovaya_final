@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>kursovaya_final: Файл hash.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">kursovaya_final<span id="projectnumber">&#160;1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.4 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Функции</a>  </div>
+  <div class="headertitle"><div class="title">Файл hash.h</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Определения вспомогательных функций для криптографических операций.  
+<a href="#details">Подробнее...</a></p>
+<div class="textblock"><code>#include &lt;string&gt;</code><br />
+<code>#include &lt;cryptopp/sha.h&gt;</code><br />
+<code>#include &lt;cryptopp/hex.h&gt;</code><br />
+<code>#include &lt;cryptopp/osrng.h&gt;</code><br />
+<code>#include &lt;cryptopp/filters.h&gt;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Граф включаемых заголовочных файлов для hash.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="hash_8h__incl.png" border="0" usemap="#ahash_8h" alt=""/></div>
+<map name="ahash_8h" id="ahash_8h">
+<area shape="rect" title="Определения вспомогательных функций для криптографических операций." alt="" coords="331,5,397,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,64,107"/>
+<area shape="rect" title=" " alt="" coords="89,80,207,107"/>
+<area shape="rect" title=" " alt="" coords="231,80,350,107"/>
+<area shape="rect" title=" " alt="" coords="373,80,504,107"/>
+<area shape="rect" title=" " alt="" coords="529,80,661,107"/>
+<area shape="rect" title=" " alt="" coords="685,80,771,107"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Граф файлов, в которые включается этот файл:</div>
+<div class="dyncontent">
+<div class="center"><img src="hash_8h__dep__incl.png" border="0" usemap="#ahash_8hdep" alt=""/></div>
+<map name="ahash_8hdep" id="ahash_8hdep">
+<area shape="rect" title="Определения вспомогательных функций для криптографических операций." alt="" coords="16,5,81,32"/>
+<area shape="rect" href="network_8h.html" title="Определения классов для управления сетевым взаимодействием." alt="" coords="5,80,92,107"/>
+<area shape="rect" href="decoder_8h.html" title="Определение класса интерфейса." alt="" coords="6,155,91,181"/>
+</map>
+</div>
+</div>
+<p><a href="hash_8h_source.html">См. исходные тексты.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:ac680d66101b7c1753cf1de7c91bba96f"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hash_8h.html#ac680d66101b7c1753cf1de7c91bba96f">getSalt</a> ()</td></tr>
+<tr class="memdesc:ac680d66101b7c1753cf1de7c91bba96f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функция для генерации соли.  <a href="hash_8h.html#ac680d66101b7c1753cf1de7c91bba96f">Подробнее...</a><br /></td></tr>
+<tr class="separator:ac680d66101b7c1753cf1de7c91bba96f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaa19eb5b25e1c37fe6f23fc2a42f3ca"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hash_8h.html#abaa19eb5b25e1c37fe6f23fc2a42f3ca">getHash</a> (const string &amp;data)</td></tr>
+<tr class="memdesc:abaa19eb5b25e1c37fe6f23fc2a42f3ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функция для вычисления хеша.  <a href="hash_8h.html#abaa19eb5b25e1c37fe6f23fc2a42f3ca">Подробнее...</a><br /></td></tr>
+<tr class="separator:abaa19eb5b25e1c37fe6f23fc2a42f3ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p >Определения вспомогательных функций для криптографических операций. </p>
+<p >Этот файл содержит определения функций для генерации соли и вычисления хеша. </p><dl class="section date"><dt>Дата</dt><dd>13.12.2024 </dd></dl>
+<dl class="section version"><dt>Версия</dt><dd>1.0 </dd></dl>
+<dl class="section author"><dt>Автор</dt><dd>Мамелин Д. А. </dd></dl>
+</div><h2 class="groupheader">Функции</h2>
+<a id="abaa19eb5b25e1c37fe6f23fc2a42f3ca" name="abaa19eb5b25e1c37fe6f23fc2a42f3ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaa19eb5b25e1c37fe6f23fc2a42f3ca">&#9670;&nbsp;</a></span>getHash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string getHash </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Функция для вычисления хеша. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>Данные для хеширования. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Хеш в виде строки. </dd></dl>
+
+</div>
+</div>
+<a id="ac680d66101b7c1753cf1de7c91bba96f" name="ac680d66101b7c1753cf1de7c91bba96f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac680d66101b7c1753cf1de7c91bba96f">&#9670;&nbsp;</a></span>getSalt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string getSalt </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Функция для генерации соли. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Соль в виде строки. </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+</small></address>
+</body>
+</html>

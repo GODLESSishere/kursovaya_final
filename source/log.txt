@@ -5,3 +5,9 @@
 [NoCritical]	[2024-11-28 19:55:46]	NetworkException in Network::auth: Hash mismatch.
 [NoCritical]	[2024-11-28 19:56:03]	NetworkException in Network::auth: Login not found in database: userAE269A4B9E656177A85BD6EF1C6C64472BF91BF1493E5115C1385986.
 [NoCritical]	[2024-11-28 19:56:40]	NetworkException in Network::calc: Failed to read vector value from client.
+[Critical]	[2024-12-12 23:12:53]	IOException in getDataBase: Failed to open database file for reading.
+[Critical]	[2024-12-12 23:15:12]	ArgsDecodeException in Decoder::parse: Invalid port number.
+[Critical]	[2024-12-12 23:18:42]	DataDecodeException in getDataBase: Invalid line format in database file.
+[Critical]	[2024-12-12 23:27:33]	IOException in getDataBase: Failed to open database file for reading.
+[Critical]	[2024-12-12 23:28:28]	ArgsDecodeException in Decoder::parse: Invalid port number.
+[Critical]	[2024-12-12 23:29:32]	DataDecodeException in getDataBase: Invalid line format in database file.
